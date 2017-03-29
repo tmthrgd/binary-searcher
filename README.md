@@ -9,10 +9,6 @@
 go get github.com/tmthrgd/binary-searcher
 ```
 
-## Benchmark
-
-
-
 ## License
 
 Unless otherwise noted, the binary-searcher source files are distributed under the Modified BSD License
