@@ -67,6 +67,10 @@ func (s *BinarySearcher) search(check []byte) (pos int, has bool) {
 }
 
 func (s *BinarySearcher) Contains(check []byte) bool {
+	if s == nil {
+		return false
+	}
+
 	_, has := s.search(check)
 	return has
 }
